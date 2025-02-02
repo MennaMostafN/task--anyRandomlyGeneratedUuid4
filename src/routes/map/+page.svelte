@@ -96,4 +96,4 @@
 	}
 </script>
 
-<div id="map" bind:this={mapContainer}></div> // Container for rendering the google map element allowing the javascript code to interact with this div element
+<div id="map" bind:this={mapContainer}></div> 
