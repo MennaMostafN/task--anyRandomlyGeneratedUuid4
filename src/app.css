@@ -1,0 +1,37 @@
+/*-------------------------------------------------Global styling properties applied for web application---------------------------------------------*/
+/*because my application is just a single web page therefore i gathered all the styling properties here in this file as i have one and only page.svelte file*/
+/*html and body element styling properties*/
+html, body {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100%;
+    background-attachment: scroll;
+}
+
+/*Google maps div element styling properties*/
+#map {
+    display:inline-block;
+    height: calc(100vh - 60px); /*Adjust to take full height minus header*/
+    width: 100%;
+    border: 3px solid #000; 
+    border-radius: 20px; /* Set curved corners */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+/*Header 1 element styling properties*/
+h1 {
+    text-shadow: 0px 1px 1px rgb(147, 147, 152);
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-sizing: border-box; 
+}
